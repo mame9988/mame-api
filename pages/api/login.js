@@ -2,7 +2,10 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 const users = [
-  { email: 'test@example.com', password: bcrypt.hashSync('test123', 10), balance: 1000 }
+  { email: 'test@example.com',
+    password: '$2a$10$0vw8qDax7EJK6LQj9KUmN.Z3N3GEAFQ1phABZ6tLU78dcMykycneS', // hashed 'test123'
+    balance: 1000
+  }
 ];
 
 export default function handler(req, res) {
