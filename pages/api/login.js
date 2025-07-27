@@ -5,7 +5,7 @@ const users = [
   {
     email: 'test@example.com',
     // Pre-hashed password for "test123"
-    password: '$2a$10$0vw8qDax7EJK6LQj9KUmN.Z3N3GEAFQ1phABZ6tLU78dcMykycneS',
+    password: '$2b$10$EnccCRmpVERZRr7d/fJRRer7FqpUnGrxico58pAN.DWJ6sd1yxbZu',
     balance: 1000
   }
 ];
